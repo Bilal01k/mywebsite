@@ -4,7 +4,7 @@ class SpecialHeader extends HTMLElement {
       <header id="header">
         <div class="container">
           <nav class="navbar">
-            <a href="/index.html" class="logo">
+            <a href="index.html" class="logo">
               Zie Core <span>Fitness</span>
               <p class="tagline">UNISEX GYM</p>
             </a>
