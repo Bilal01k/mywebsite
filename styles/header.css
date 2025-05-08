@@ -40,7 +40,7 @@ header.scrolled {
     font-weight: normal;
     color: white;
     margin-top: 2px;
-    text-align: center;
+    text-align: start;
     word-spacing: 2.5px;
 }
 
