@@ -205,13 +205,19 @@
     height: 100%;
     object-fit: cover;
 }
-
 .team-members {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
     gap: 30px;
     margin-top: 30px;
 }
+
+@media (max-width: 768px) {
+    .team-members {
+        grid-template-columns: 1fr; /* Stack cards on small screens */
+    }
+}
+
 
 
 .team-member {
@@ -230,11 +236,11 @@
 
 .team-member img {
     width: 100%;
-    height: 440px;
+    height: 460px;
     object-fit: cover;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
+    object-position: top center; /* Focus more on top part (head) */
 }
+
 
 .team-member-info {
     padding: 20px;
